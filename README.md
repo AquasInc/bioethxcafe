@@ -8,6 +8,7 @@ sudo apt install git
 git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
 git config --global init.defaultBranch main
+git clone https://github.com/AquasInc/bioethxcafe.git
 ```
 Download for [windows](https://git-scm.com/download/win)
 
