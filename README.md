@@ -1,15 +1,15 @@
 # Astro Dev set up
 
 
-## :octocat: Set up git 
+## Set up git :octocat: 
 
-Download Git instructins for [windows](https://git-scm.com/download/win)
+Download Git instructions for [windows](https://git-scm.com/download/win)
 
 ```sh
-# Install git via packagmanager e.g. apt
+# Install git via package manager e.g. apt
 sudo apt install git
 
-# Add you contact details to see who authored commits to history
+# Add your contact details to see who authored commits to history
 git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
 
@@ -25,7 +25,7 @@ Download your standard text editor [vscode](https://code.visualstudio.com/)
 # Set up remote github repository so you can push your local changes to upstream
 git remote add origin https://github.com/AquasInc/bioethxcafe.git
 
-# Make small edits to the successfully cloned project and add the edited files that you want to commit to version control 
+# Make small edits to the cloned project and add the edited files that you want to commit to version control 
 git add <file> 
 
 # commit those changes to version control with a minimal message detailing your change 
