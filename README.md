@@ -3,21 +3,40 @@
 
 ## :octocat: Set up git 
 
-```sh
-sudo apt install git
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
-git config --global init.defaultBranch main
-git clone https://github.com/AquasInc/bioethxcafe.git
-```
 Download Git instructins for [windows](https://git-scm.com/download/win)
 
+```sh
+# Install git via packagmanager e.g. apt
+sudo apt install git
+
+# Add you contact details to see who authored commits to history
+git config --global user.name "Your Name"
+git config --global user.email "your_email@example.com"
+
+# Set default branch to main to correspond to github's default
+git config --global init.defaultBranch main
+
+# Clone project locally with git
+git clone https://github.com/AquasInc/bioethxcafe.git
+```
 Download your standard text editor [vscode](https://code.visualstudio.com/)
+
 ```sh
 # Set up remote github repository so you can push your local changes to upstream
 git remote add origin https://github.com/AquasInc/bioethxcafe.git
+
+# Make small edits to the successfully cloned project and add the edited files that you want to commit to version control 
+git add <file> 
+
+# commit those changes to version control with a minimal message detailing your change 
+git commit -m "<message>" 
+
+# Check for any upstream changes to the project before pushing your local changes to upstream 
+git fetch 
+
+# When you are ready to push your changes to production
+git push
 ```
-Make a small edit to the successfully cloned project. Add the edited files that you want to commit to version control `git add` \<file\>. Then commit those changes to version control with a message detailing your change `git commit -m` "\<message\>". Check for any upstream changes to the project before pushing your local changes to upstream `git fetch`. When you are ready to push your changes to production simply use `git push`.
 
 ## 🚀 Project Structure
 
