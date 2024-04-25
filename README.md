@@ -1,7 +1,7 @@
 # Astro Dev set up
 
 
-## Set up git 
+## :octocat: Set up git 
 
 ```sh
 sudo apt install git
