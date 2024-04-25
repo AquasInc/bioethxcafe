@@ -1,7 +1,7 @@
 # Astro Dev set up
 
 
-## Set up git :octocat: 
+## 🧑‍🚀 Set up git
 
 Download Git instructions for [windows](https://git-scm.com/download/win)
 
