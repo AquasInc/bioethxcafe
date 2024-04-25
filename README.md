@@ -12,6 +12,13 @@ git clone https://github.com/AquasInc/bioethxcafe.git
 ```
 Download Git instructins for [windows](https://git-scm.com/download/win)
 
+Download your standard text editor [vscode](https://code.visualstudio.com/)
+```sh
+# Set up remote github reposity so you can push your local changes to upstream
+git remote add origin https://github.com/AquasInc/bioethxcafe.git
+```
+Make a small edit to the successfully cloned project. Add the edited files that you want to commit to version control `git add` <file>. Then commit those changes to version control with a message detailing your change `git commit -m` "<message>". Check for any upstream changes to the project before pushing your local changes to upstream `git fetch`. When you are ready to push your changes to production simply use `git push`.
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
