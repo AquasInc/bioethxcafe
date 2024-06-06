@@ -1,27 +1,26 @@
 ---
 import { Image } from "astro:assets";
-
 import bioethxCafeLogo from "../../public/BioEthx-Cafe-Logo_3-300x199-1.png";
 ---
 
 <html lang="en" data-theme="light">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" type="image/svg+xml" href="../../public/BioEthx-Cafe-Logo_3-300x199-1-150x150.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>BioEthx Café</title>
 	</head>
 	<body>
 		<div class="hero mt-20">
 		  <div class="hero-content text-center">
 			<div>
 				<div class="flex justify-center">
-				<Image src={bioethxCafeLogo} alt="BioEthx Cafe Logo" />
+					<Image src={bioethxCafeLogo} alt="BioEthx Cafe Logo" />
 				</div>
-			  <h1 class="text-4xl">Currently under renovations</h1>
-			  <p class="py-6">Will be back online soon!</p>
-			  <a href="https://bioethx.org" class="btn btn-neutral">About us</a>
+				<h1 class="text-4xl">Currently under renovations</h1>
+				<p class="py-6">Will be back online soon!</p>
+				<a href="https://bioethx.org" class="btn btn-neutral">About us</a>
 			</div>
 		  </div>
 		</div>
