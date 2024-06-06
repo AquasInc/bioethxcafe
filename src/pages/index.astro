@@ -1,8 +1,10 @@
 ---
+import { Image } from "astro:assets";
 
+import bioethxCafeLogo from "../../public/BioEthx-Cafe-Logo_3-300x199-1.png";
 ---
 
-<html lang="en">
+<html lang="en" data-theme="light">
 	<head>
 		<meta charset="utf-8" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -11,11 +13,17 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<div class="container mx-auto p-4">
-			<article class="prose">
-				<h1>astro web framework</h1>
-				<h3>TailwindCSS integration + DaisyUI TailwindCSS plugin</h3>
-			</article>
+		<div class="hero mt-20">
+		  <div class="hero-content text-center">
+			<div>
+				<div class="flex justify-center">
+				<Image src={bioethxCafeLogo} alt="BioEthx Cafe Logo" />
+				</div>
+			  <h1 class="text-4xl">Currently under renovations</h1>
+			  <p class="py-6">Will be back online soon!</p>
+			  <a href="https://bioethx.org" class="btn btn-neutral">About us</a>
+			</div>
+		  </div>
 		</div>
 	</body>
 </html>
